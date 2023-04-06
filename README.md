@@ -1,0 +1,3 @@
+### Run
+
+``gradlew clean test``

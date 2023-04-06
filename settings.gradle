@@ -1,0 +1,5 @@
+rootProject.name = 'redisson-cache-eviction-issue-poc'
+
+include ':redisson-3-18-1-test'
+include ':redisson-3-19-0-test'
+include ':redisson-configuration'

@@ -1,0 +1,4 @@
+dependencies {
+    testImplementation project(':redisson-configuration')
+    testImplementation 'org.redisson:redisson:3.18.1'
+}

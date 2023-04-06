@@ -1,0 +1,6 @@
+dependencies {
+    testImplementation project(':redisson-configuration')
+    testImplementation 'org.redisson:redisson:3.19.0'
+}
+
+tasks.findByPath(':redisson-3-19-0-test:test').dependsOn(tasks.findByPath(':redisson-3-18-1-test:test'))
